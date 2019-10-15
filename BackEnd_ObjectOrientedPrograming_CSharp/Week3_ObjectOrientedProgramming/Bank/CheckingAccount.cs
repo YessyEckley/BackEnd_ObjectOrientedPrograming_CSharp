@@ -9,6 +9,7 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp.Week3_ObjectOrientedProgrammin
             : base(balance, owner, id)
         {
         }
+
         public decimal Fee
         {
             get
@@ -19,12 +20,26 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp.Week3_ObjectOrientedProgrammin
                     return 0.00m;
             }
         }
-        new public string GetStatement()
+
+        public string GetStatement()
         {
             string s = base.GetStatement();
             s += ", fee = " + Fee;
             return s;
         }
+        //public new string GetStatement()
+        //{
+        //    string s = base.GetStatement();
+        //    s += ", fee = " + Fee;
+        //    return s;
+        //}
+        //public override string GetStatement()
+        //{
+        //    string s = base.GetStatement();
+        //    s += ", fee = " + Fee;
+        //    return s;
+        //}
+
         public void Post()
         {
             balance -= Fee;

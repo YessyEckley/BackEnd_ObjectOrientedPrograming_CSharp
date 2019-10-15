@@ -11,4 +11,7 @@
     <Folder Include="Week3_ObjectOrientedProgramming\Bank\" />
     <Folder Include="Week3_ObjectOrientedProgramming\AnalysisAndDesing\" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Week3_ObjectOrientedProgramming\ClassesAndObjects\Sphere.cs" />
+  </ItemGroup>
 </Project>

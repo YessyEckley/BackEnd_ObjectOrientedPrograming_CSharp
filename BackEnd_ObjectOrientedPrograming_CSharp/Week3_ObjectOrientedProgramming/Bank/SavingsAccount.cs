@@ -10,6 +10,7 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp.Week3_ObjectOrientedProgrammin
         {
             minBalance = balance;
         }
+
         public decimal Interest
         {
             get
@@ -17,26 +18,14 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp.Week3_ObjectOrientedProgrammin
                 return minBalance * rate / 12;
             }
         }
-        new public void Withdraw(decimal amount)
-        {
-            base.Withdraw(amount);
-            if (balance < minBalance)
-            {
-                minBalance = balance;
-            }
-        }
+
         public void Post()
         {
             balance += Interest;
             numXact = 0;
             minBalance = balance;
         }
-        new public string GetStatement()
-        {
-            string s = base.GetStatement();
-            s += ", interest = " + Interest;
-            return s;
-        }
+
         public decimal Rate
         {
             get
@@ -48,6 +37,50 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp.Week3_ObjectOrientedProgrammin
                 rate = value;
             }
         }
+
+        public void Withdraw(decimal amount)
+        {
+            base.Withdraw(amount);
+            if (balance < minBalance)
+            {
+                minBalance = balance;
+            }
+        }
+        //public new void Withdraw(decimal amount)
+        //{
+        //    base.Withdraw(amount);
+        //    if (balance < minBalance)
+        //    {
+        //        minBalance = balance;
+        //    }
+        //}
+        //public override void Withdraw(decimal amount)
+        //{
+        //    base.Withdraw(amount);
+        //    if (balance < minBalance)
+        //    {
+        //        minBalance = balance;
+        //    }
+        //}
+
+        public string GetStatement()
+        {
+            string s = base.GetStatement();
+            s += ", interest = " + Interest;
+            return s;
+        }
+        //public new string GetStatement()
+        //{
+        //    string s = base.GetStatement();
+        //    s += ", interest = " + Interest;
+        //    return s;
+        //}
+        //public override string GetStatement()
+        //{
+        //    string s = base.GetStatement();
+        //    s += ", interest = " + Interest;
+        //    return s;
+        //}
     }
 
 }

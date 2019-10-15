@@ -7,22 +7,14 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp.Week3_ObjectOrientedProgrammin
         protected decimal balance;
         private string owner;
         protected int numXact = 0;  // number of transactions
+
         public Account(decimal balance, string owner, int id)
         {
             this.balance = balance;
             this.owner = owner;
             this.id = id;
         }
-        public void Deposit(decimal amount)
-        {
-            balance += amount;
-            numXact++;
-        }
-        public void Withdraw(decimal amount)
-        {
-            balance -= amount;
-            numXact++;
-        }
+
         public decimal Balance
         {
             get
@@ -30,6 +22,7 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp.Week3_ObjectOrientedProgrammin
                 return balance;
             }
         }
+
         public int Id
         {
             get
@@ -37,6 +30,7 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp.Week3_ObjectOrientedProgrammin
                 return id;
             }
         }
+
         public string Owner
         {
             get
@@ -48,6 +42,7 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp.Week3_ObjectOrientedProgrammin
                 owner = value;
             }
         }
+
         public int Transactions
         {
             get
@@ -55,11 +50,40 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp.Week3_ObjectOrientedProgrammin
                 return numXact;
             }
         }
+
         public string GetStatement()
         {
             string s = "Statement for " + this.Owner + " id = " + Id + "\n" +
                 this.Transactions + " transactions, balance = " + balance;
             return s;
         }
+        //public virtual string GetStatement()
+        //{
+        //    string s = "Statement for " + this.Owner + " id = " + Id + "\n" +
+        //        this.Transactions + " transactions, balance = " + balance;
+        //    return s;
+        //}
+
+        public void Deposit(decimal amount)
+        {
+            balance += amount;
+            numXact++;
+        }
+        //public virtual void Deposit(decimal amount)
+        //{
+        //    balance += amount;
+        //    numXact++;
+        //}
+
+        public void Withdraw(decimal amount)
+        {
+            balance -= amount;
+            numXact++;
+        }
+        //public virtual void Withdraw(decimal amount)
+        //{
+        //    balance -= amount;
+        //    numXact++;
+        //}
     }
 }
