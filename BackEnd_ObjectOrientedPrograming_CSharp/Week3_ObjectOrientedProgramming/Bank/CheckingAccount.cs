@@ -21,28 +21,28 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp.Week3_ObjectOrientedProgrammin
             }
         }
 
-        public string GetStatement()
-        {
-            string s = base.GetStatement();
-            s += ", fee = " + Fee;
-            return s;
-        }
+        //public string GetStatement()
+        //{
+        //    string s = base.GetStatement();
+        //    s += ", fee = " + Fee;
+        //    return s;
+        //}
         //public new string GetStatement()
         //{
         //    string s = base.GetStatement();
         //    s += ", fee = " + Fee;
         //    return s;
         //}
-        //public override string GetStatement()
-        //{
-        //    string s = base.GetStatement();
-        //    s += ", fee = " + Fee;
-        //    return s;
-        //}
+        public override string GetStatement()
+        {
+            string s = base.GetStatement();
+            s += ", fee = " + Fee;
+            return s;
+        }
 
         public void Post()
         {
-            balance -= Fee;
+            _balance -= Fee;
             numXact = 0;
         }
     }

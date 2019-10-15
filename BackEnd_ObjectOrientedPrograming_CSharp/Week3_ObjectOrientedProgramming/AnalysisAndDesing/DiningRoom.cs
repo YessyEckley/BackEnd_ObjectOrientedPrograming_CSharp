@@ -3,9 +3,16 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp.Week3_ObjectOrientedProgrammin
 {
     public class DiningRoom
     {
+        //Read-only can only be assign in the constructor
         private readonly Person[] _dinners;
         private readonly IPest[] _pests;
-        private readonly bool _areDinnersEating;
+
+        private bool _areDinnersEating;
+        public bool AreDinnersEating
+        {
+            get { return _areDinnersEating; }
+            set { _areDinnersEating = value; }
+        }
 
         public DiningRoom(Person[] diningPeople, IPest[] pests)
         {
@@ -17,7 +24,7 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp.Week3_ObjectOrientedProgrammin
 
         public void ServeDinner()
         {
-            if (_areDinnersEating)
+            if (AreDinnersEating)
             {
                 foreach (var pest in _pests)
                 {

@@ -3,23 +3,27 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp.Week3_ObjectOrientedProgrammin
 {
     public class Account
     {
+        //Attributes
         private int id;
-        protected decimal balance;
+        protected decimal _balance;
         private string owner;
         protected int numXact = 0;  // number of transactions
 
+        //Constructor
         public Account(decimal balance, string owner, int id)
         {
-            this.balance = balance;
+            _balance = balance;
+            //We add the this when attributes and passed parameters have the same name
             this.owner = owner;
             this.id = id;
         }
 
+        //Properties
         public decimal Balance
         {
             get
             {
-                return balance;
+                return _balance;
             }
         }
 
@@ -43,6 +47,7 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp.Week3_ObjectOrientedProgrammin
             }
         }
 
+        //Methods
         public int Transactions
         {
             get
@@ -51,39 +56,46 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp.Week3_ObjectOrientedProgrammin
             }
         }
 
-        public string GetStatement()
-        {
-            string s = "Statement for " + this.Owner + " id = " + Id + "\n" +
-                this.Transactions + " transactions, balance = " + balance;
-            return s;
-        }
-        //public virtual string GetStatement()
+        //public string GetStatement()
         //{
         //    string s = "Statement for " + this.Owner + " id = " + Id + "\n" +
-        //        this.Transactions + " transactions, balance = " + balance;
+        //        this.Transactions + " transactions, balance = " + _balance;
         //    return s;
         //}
-
-        public void Deposit(decimal amount)
+        public virtual string GetStatement()
         {
-            balance += amount;
-            numXact++;
+            string s = "Statement for " + this.Owner + " id = " + Id + "\n" +
+                this.Transactions + " transactions, balance = " + _balance;
+            return s;
         }
-        //public virtual void Deposit(decimal amount)
+
+        //public void Deposit(decimal amount)
         //{
-        //    balance += amount;
+        //    _balance += amount;
         //    numXact++;
         //}
-
-        public void Withdraw(decimal amount)
+        //Virtual
+        public virtual void Deposit(decimal amount)
         {
-            balance -= amount;
+            _balance += amount;
             numXact++;
         }
-        //public virtual void Withdraw(decimal amount)
+        //Overloaded
+        public virtual void Deposit(decimal amount, int fee)
+        {
+            _balance += amount;
+            numXact++;
+        }
+
+        //public void Withdraw(decimal amount)
         //{
-        //    balance -= amount;
+        //    _balance -= amount;
         //    numXact++;
         //}
+        public virtual void Withdraw(decimal amount)
+        {
+            _balance -= amount;
+            numXact++;
+        }
     }
 }

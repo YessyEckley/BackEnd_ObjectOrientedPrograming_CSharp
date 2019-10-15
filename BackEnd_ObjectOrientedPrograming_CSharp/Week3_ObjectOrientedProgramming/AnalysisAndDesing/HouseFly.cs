@@ -2,6 +2,11 @@
 {
     public class HouseFly : Insect, IPest
     {
+        //public void BeAnnoying()
+        //{
+        //    throw new System.NotImplementedException();
+        //}
+
         public void BeAnnoying()
         {
             //Write some code to be annoying
