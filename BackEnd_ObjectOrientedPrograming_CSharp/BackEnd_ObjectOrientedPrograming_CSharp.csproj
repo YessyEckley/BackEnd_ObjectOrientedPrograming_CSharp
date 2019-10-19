@@ -10,6 +10,9 @@
     <Folder Include="Week3_ObjectOrientedProgramming\ClassesAndObjects\" />
     <Folder Include="Week3_ObjectOrientedProgramming\Bank\" />
     <Folder Include="Week3_ObjectOrientedProgramming\AnalysisAndDesing\" />
+    <Folder Include="Week1_HelloWorld\" />
+    <Folder Include="Week4_DataTypes_1\" />
+    <Folder Include="Week4_DataTypes_1\LabAndDemo\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Week3_ObjectOrientedProgramming\ClassesAndObjects\Sphere.cs" />
