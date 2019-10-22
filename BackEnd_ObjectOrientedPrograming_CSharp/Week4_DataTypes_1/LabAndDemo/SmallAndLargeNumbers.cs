@@ -23,8 +23,8 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp.Week4_DataTypes_1.LabAndDemo
          *
          * Extra
          * - Experiment with the smallest float
-         * - Experiment with the larget decimal
-         * - Experiment with the larget double
+         * - Experiment with the largest decimal
+         * - Experiment with the largest double
          * - Compare the results
          *
          * If in doubt, the nswer in on the file LargeSmall.cs

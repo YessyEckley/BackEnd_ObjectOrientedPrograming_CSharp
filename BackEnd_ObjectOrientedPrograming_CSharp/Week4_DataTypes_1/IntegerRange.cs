@@ -26,6 +26,8 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp.Week4_DataTypes_1
             Console.WriteLine("min ulong = " + UInt64.MinValue);
             Console.WriteLine("max ulong = " + UInt64.MaxValue);
 
+            //long aLongVarible = 100LU;
+
             return 0;
         }
     }

@@ -7,7 +7,11 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp.Week4_DataTypes_1
         {
             char seven = '7';
             short number;
-            number = seven;
+            //number = (short)seven;
+            //Using Conver
+            number = Convert.ToInt16(seven.ToString());
+            sbyte anSbyte;
+            SByte anotherSbyte;
 
             Console.WriteLine("seven = " + seven);
             Console.WriteLine("number = " + number);

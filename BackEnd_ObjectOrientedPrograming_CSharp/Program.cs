@@ -45,6 +45,25 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp
         {
             //Week4_DataTypes_1
             //Week4_DataTypes_1.LabAndDemo
+            //var dataTypes = new Week4_DataTypes_1.DataTypes();
+            //var seven = new Week4_DataTypes_1.Seven();
+
+            //Week4_DataTypes_1.IntegerRange.TestIntegerRange();
+
+            //Week4_DataTypes_1.SpecialFloat.TestSpecialFloat();
+
+            //var aDecimalLiteral = new Week4_DataTypes_1
+            //    .DecimalLiterals();
+
+            //var characterLiterals = new Week4_DataTypes_1
+            //    .CharacterLiterals();
+
+            //Console.WriteLine(Convert.ToBoolean("false"));
+            ////This one doesn't work and throws an error
+            ////Console.Write(Convert.ToBoolean("1"));
+            //Console.WriteLine(Convert.ToBoolean(1));
+
+            
         }
     }
 }

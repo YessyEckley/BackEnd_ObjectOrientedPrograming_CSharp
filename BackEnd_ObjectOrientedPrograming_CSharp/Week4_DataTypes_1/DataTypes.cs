@@ -15,11 +15,14 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp.Week4_DataTypes_1
             Student newStudent = new Student("Jane", "Austen");
             ChangeReferenceType(newStudent);
             Console.WriteLine(newStudent.FullName);
+            newStudent = null;
 
             // Null
             Student nullStudent = new Student();
             Console.WriteLine(nullStudent.FullName);
             // try it with an int
+
+            var aNumber = 6;
         }
 
         void ChangeValueType(int x)
