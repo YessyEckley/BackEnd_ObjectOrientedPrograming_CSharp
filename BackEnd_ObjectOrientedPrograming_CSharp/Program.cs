@@ -6,8 +6,17 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp
     {
         static void Main(string[] args)
         {
+            //How to write comments
+            //Comment #1
+            /*
+            Comment #2
+
+            Everything in between the (*) is a comment
+             */
+
             //Week1Sample();
             //Week3Sample();
+            Week4Sample();
         }
 
         private static void Week1Sample()
@@ -30,6 +39,12 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp
 
             var temp = new Week3_ObjectOrientedProgramming
                 .ClassesAndObjects.SampleClass();
+        }
+
+        private static void Week4Sample()
+        {
+            //Week4_DataTypes_1
+            //Week4_DataTypes_1.LabAndDemo
         }
     }
 }
