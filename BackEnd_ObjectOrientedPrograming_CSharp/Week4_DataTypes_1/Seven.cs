@@ -7,11 +7,11 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp.Week4_DataTypes_1
         {
             char seven = '7';
             short number;
-            //number = (short)seven;
+            //number = (short)seven; // This will convert to ACSII code Dex
             //Using Conver
             number = Convert.ToInt16(seven.ToString());
-            sbyte anSbyte;
-            SByte anotherSbyte;
+            //sbyte anSbyte;
+            //SByte anotherSbyte;
 
             Console.WriteLine("seven = " + seven);
             Console.WriteLine("number = " + number);
