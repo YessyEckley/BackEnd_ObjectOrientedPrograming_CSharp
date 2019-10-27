@@ -1,0 +1,25 @@
+﻿Arrays of Structs and Objects
+
+Files
+HotelStructArray\Step1 -- Starter File
+HotelStructArray\Step2 -- Exercise 1 Answer
+HotelClassArray -- Exercise 2 Answer
+
+Introduction
+In this exercise, we will explore some of the differences between struct and class objects.
+
+Before you get started, get familiar with the instructions. If you need to, look at the answer files to get familiar with the new code. If needed, copy the code several times until you become familiar with the code and then try to do from memory as much as possible.
+
+For this assignment, create a new Console project in Visual Studio and call it “ArrayStructClassProj”
+
+Exercise 1. Array of Struct Objects 
+Create a folder HotelStructArray, then create a structure called Hotel and a class called TestHotel
+Create an array of 5 Hotel object, using the Hotel struct given in the starter directory.
+Initialize each of the objects, and print them out using the Show() method of the Hotel struct.
+Then create a second array of 5 Hotel using the copy the first array into the second, reinitialize the first array to all blanks and zeros, and print out both arrays.
+
+Exercise 2. Array of Class Objects
+Create a folder HotelClassArray, then create a class called Hotel and a class called TestHotel
+Start with the program you wrote in Exercise 1, and create a new class based on the struct the struct to a class. What changes do you have to make in order for the copy to work correctly?
+
+Display your results to the Console App.

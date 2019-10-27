@@ -1,0 +1,50 @@
+﻿Introduction
+In this you will implement a class that represents contact information. The class
+contains private members for an ID, a name, and an email address. Public accessor
+methods are provided, and methods are provided for changing name and email. The class
+has suitable constructors. You will also implement a test program to instantiate objects
+and show the values before and after changes.
+
+Before you get started, get familiar with the instructions. If you need to, look at the answer files to get familiar with the new code. If needed, copy the code several times until you become familiar with the code and then try to do from memory as much as possible.
+
+For this assignment, create a new Console project in Visual Studio and call it “ContactsClassProj”
+
+TestContact\Step1 (Part 1 answer)
+TestContact\Step2 (Part 2 answer)
+TestContact\Step3 (Part 3 answer)
+
+Part 1. A Basic Class
+In this part you will implement a class Contact in a file Contact.cs and a test class TestContact in a file TestContact.cs. There will be private members, accessor methods, and methods to change the members (sometimes called "mutators"). 
+
+1. To your project, add the new files Contact.cs and TestContact.cs.
+2. In Contact.cs define a class Contact that has private member variables id of type int and name and email of type string.
+3. Define methods Getld(), GetName(), and GetEmail() to access these member variables.
+4. Define methods Changeld(), ChangeName(), and ChangeEmail() to change the member variables.
+5. In TestContact.cs define a public static void DisplayTest() method where you will place test code.
+6. Implement a private method ShowContact(Contact cont) that will display the values of the members of Contact.
+7. In DisplayTest(), instantiate a new Contact and show its (default) values.
+8. Add code to change the fields and then show the contact. Build and test.
+
+Part 2. Using Constructors
+In this part we want to provide constructors to initialize a new Contact object with non-default values. In particular, We want to evolve the design of the class so that an id is assigned when the object is constructed and not via a mutator method. We will eventually want the id to be fixed once it is assigned.
+
+1. Implement a constructor Contact(int id) to initialize a new contact with a specified id.
+2. In the test program, replace the code where the id was changed by calling Changeld() to code that will construct a new Contact object with some specified id -- new Contact(id).
+3. Build and test. What happens?
+4. You will get an error message saying something like this: error CS1501: No overload for method ‘Contact’ takes  ‘0’ arguments
+5. You now need to explicitly provide a constructor Contact() with no arguments. Add this constructor and build and run again, Now it should work.
+6. Add a third constructor that takes parameters for the id, name, and email, and initializes them all in one
+7. Add code to the test program to create a new Contact object using this constructor and show its value. Build and test.
+
+Part 3. A More Robust Class
+In this final step you will add code to ensure that the id cannot be changed once it is assigned. You will also provide a limit to how long names and email addresses can be. This second point is actually a very important one in modem applications, especially ones deployed on the web. A classical security breach is through buffer overflow. A hacker enters a very long string into some form on a Web page, and if the program code does not have adequate safeguards, the buffer on the server that holds this name runs over, and malicious code is injected into the server.
+
+1. Make the field id to be readonly.
+2. Add code to the test program to try to change the id by calling Changeld(). Try to build the program. What happens?
+3. You will get a compiler error message something like: error CS0191 : A readonly field cannot be assigned to (except in constructor or a variable initializer)
+4. Comment out the line in Changeld() in which you assign a new value to id. Now you should get a clean compile.
+5. Next, we want to limit names and email addresses to have 20 characters at most. Begin by declaring a const i t member MAXLENGTH with the value 20.
+6. In the constructor that takes a name and email address as parameters, add code to truncate long names to be 20 characters in length. (Hint: Use the Substring(0, MAXLENGTH) method of the String class. You can consult the online documentation. You do not need to worry about the if statements for now, we will be covering those on the next class, for now just copy and paste this logic from memory.)
+7. Add similar code to the methods that change the name and the email address.
+8. Add code to the test program to enter long names and email addresses in the constructor and in calls to the change methods.
+9. Build and test.

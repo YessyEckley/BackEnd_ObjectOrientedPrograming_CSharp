@@ -13,6 +13,19 @@
     <Folder Include="Week1_HelloWorld\" />
     <Folder Include="Week4_DataTypes_1\" />
     <Folder Include="Week4_DataTypes_1\LabAndDemo\" />
+    <Folder Include="Week5_Classes\" />
+    <Folder Include="Week5_Classes\HotelCopy\" />
+    <Folder Include="Week5_Classes\HotelCreate\" />
+    <Folder Include="Week5_Classes\ImplicitType\" />
+    <Folder Include="Week5_Classes\ConstantAccount\" />
+    <Folder Include="Week5_Classes\InitialAccount\" />
+    <Folder Include="Week5_Classes\StaticAccount\" />
+    <Folder Include="Week5_Classes\StaticConstructor\" />
+    <Folder Include="Week5_Classes\TestAccount\" />
+    <Folder Include="Week5_Classes\Week5Labs\" />
+    <Folder Include="Week5_Classes\Week5Labs\HotelStructArray\" />
+    <Folder Include="Week5_Classes\Week5Labs\HotelClassArray\" />
+    <Folder Include="Week5_Classes\Week5Labs\TestContact\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Week3_ObjectOrientedProgramming\ClassesAndObjects\Sphere.cs" />
