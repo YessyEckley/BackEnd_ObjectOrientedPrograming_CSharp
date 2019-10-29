@@ -6,8 +6,8 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp.Week5_Classes.ImplicitType
         public static void DisplayTest()
         {
             var num = 55;
-            ShowTypeInfo(num);
             ShowObject(num);
+            ShowTypeInfo(num);
 
             var word = "Hello!";
             ShowObject(word);
