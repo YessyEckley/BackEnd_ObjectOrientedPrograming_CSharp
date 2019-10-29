@@ -94,8 +94,6 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp
 
             //Week5_Classes.HotelCopy.HotelCopy.DisplayTest();
 
-            //Week5_Classes.ImplicitType.ImplicitTypeClass.DisplayTest();
-
             ////string
             //string sampleString1 = "Hello World!";
             //string sampleString2 = "How are you?";
@@ -106,6 +104,13 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp
             //    new Week5_Classes.TestAccount.Step1.TestAccount[2];
             //sampleTestAccountArray[0] = new Week5_Classes.TestAccount.Step1.TestAccount();
             //sampleTestAccountArray[1] = new Week5_Classes.TestAccount.Step1.TestAccount();
+
+            ////Boxing and unboxing
+            //int x = 5;
+            //object o = x; // boxing
+            //x = (int)0; // unboxing
+
+            //Week5_Classes.ImplicitType.ImplicitTypeClass.DisplayTest();
 
             //Homework coding work
             //Week5_Classes.Week5Labs.HotelStructArray.Step2.TestHotel.DisplayTest();
