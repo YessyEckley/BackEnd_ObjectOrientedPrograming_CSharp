@@ -96,6 +96,16 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp
 
             //Week5_Classes.ImplicitType.ImplicitTypeClass.DisplayTest();
 
+            ////string
+            //string sampleString1 = "Hello World!";
+            //string sampleString2 = "How are you?";
+            //sampleString2 = sampleString1;
+
+            ////Array
+            //Week5_Classes.TestAccount.Step1.TestAccount[] sampleTestAccountArray =
+            //    new Week5_Classes.TestAccount.Step1.TestAccount[2];
+            //sampleTestAccountArray[0] = new Week5_Classes.TestAccount.Step1.TestAccount();
+            //sampleTestAccountArray[1] = new Week5_Classes.TestAccount.Step1.TestAccount();
 
             //Homework coding work
             //Week5_Classes.Week5Labs.HotelStructArray.Step2.TestHotel.DisplayTest();
