@@ -5,6 +5,7 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp.Week5_Classes.InitialAccount.S
     {
         private int id = 7;
         private decimal balance = 700;
+
         public Account()
         {
         }
@@ -13,6 +14,7 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp.Week5_Classes.InitialAccount.S
             id = i;
             balance = bal;
         }
+
         public void Deposit(decimal amount)
         {
             balance += amount;

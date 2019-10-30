@@ -108,9 +108,9 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp
             ////Boxing and unboxing
             //int x = 5;
             //object o = x; // boxing
-            //x = (int)0; // unboxing
+            //x = (int)o; // unboxing
 
-            //Week5_Classes.ImplicitType.ImplicitTypeClass.DisplayTest();
+            Week5_Classes.ImplicitType.ImplicitTypeClass.DisplayTest();
 
             //Homework coding work
             //Week5_Classes.Week5Labs.HotelStructArray.Step2.TestHotel.DisplayTest();

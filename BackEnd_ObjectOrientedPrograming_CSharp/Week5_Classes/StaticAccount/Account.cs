@@ -4,8 +4,9 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp.Week5_Classes.StaticAccount
     public class Account
     {
         private int id;
-        private decimal balance;
+        private decimal balance = 700m;
         private static int nextid = 1;
+
         public Account()
         {
             this.id = nextid++;
@@ -15,10 +16,12 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp.Week5_Classes.StaticAccount
             this.id = nextid++;
             this.balance = balance;
         }
+
         public static int GetNextId()
         {
             return nextid;
         }
+
         public void Deposit(decimal amount)
         {
             balance = Add(balance, amount);
@@ -27,6 +30,7 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp.Week5_Classes.StaticAccount
         {
             balance -= amount;
         }
+
         public decimal GetBalance()
         {
             return balance;
@@ -35,6 +39,7 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp.Week5_Classes.StaticAccount
         {
             return id;
         }
+
         static private decimal Add(decimal x, decimal y)
         {
             return x + y;

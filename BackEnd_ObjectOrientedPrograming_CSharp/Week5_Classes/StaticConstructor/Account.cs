@@ -8,6 +8,7 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp.Week5_Classes.StaticConstructo
         private int id;
         private decimal balance;
         private static int nextid = 1;
+
         static Account()
         {
             Console.WriteLine("Static constructor");

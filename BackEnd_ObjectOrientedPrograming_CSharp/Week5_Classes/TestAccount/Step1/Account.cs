@@ -3,7 +3,8 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp.Week5_Classes.TestAccount.Step
 {
     public class Account
     {
-        public int Id;
-        public decimal Balance;
+        public int Id; // default 0
+        public decimal Balance; // 0.0m
+        public string username; // null
     }
 }

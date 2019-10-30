@@ -16,6 +16,7 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp.Week5_Classes.TestAccount.Step
         public void Deposit(decimal amount)
         {
             balance += amount;
+            //balance = balance + amount;
         }
         public void Withdraw(decimal amount)
         {
