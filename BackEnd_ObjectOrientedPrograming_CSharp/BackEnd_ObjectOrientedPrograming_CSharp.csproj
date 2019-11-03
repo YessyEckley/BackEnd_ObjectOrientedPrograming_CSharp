@@ -26,6 +26,33 @@
     <Folder Include="Week5_Classes\Week5Labs\HotelStructArray\" />
     <Folder Include="Week5_Classes\Week5Labs\HotelClassArray\" />
     <Folder Include="Week5_Classes\Week5Labs\TestContact\" />
+    <Folder Include="Week6_OperatorsCF\" />
+    <Folder Include="Week6_OperatorsCF\Week6Labs\" />
+    <Folder Include="Week6_OperatorsCF\Week6Labs\MortgagePayment\" />
+    <Folder Include="Week6_OperatorsCF\Week6Labs\Contacts\" />
+    <Folder Include="Week6_OperatorsCF\AbsoluteValue\" />
+    <Folder Include="Week6_OperatorsCF\Assign\" />
+    <Folder Include="Week6_OperatorsCF\Checked\" />
+    <Folder Include="Week6_OperatorsCF\IntegerDivision\" />
+    <Folder Include="Week6_OperatorsCF\Ira\" />
+    <Folder Include="Week6_OperatorsCF\Multiply\" />
+    <Folder Include="Week6_OperatorsCF\Relational\" />
+    <Folder Include="Week6_OperatorsCF\Shift\" />
+    <Folder Include="Week6_OperatorsCF\ShortCircuit\" />
+    <Folder Include="Week6_OperatorsCF\Unchecked\" />
+    <Folder Include="Week6_OperatorsCF\BreakSearch\" />
+    <Folder Include="Week6_OperatorsCF\ContinueLoop\" />
+    <Folder Include="Week6_OperatorsCF\Fibonacci\" />
+    <Folder Include="Week6_OperatorsCF\ForDown\" />
+    <Folder Include="Week6_OperatorsCF\ForEachLoop\" />
+    <Folder Include="Week6_OperatorsCF\ForUp\" />
+    <Folder Include="Week6_OperatorsCF\GotoSearch\" />
+    <Folder Include="Week6_OperatorsCF\LeapYear\" />
+    <Folder Include="Week6_OperatorsCF\LeapYearLoop\" />
+    <Folder Include="Week6_OperatorsCF\MultipleMethods\" />
+    <Folder Include="Week6_OperatorsCF\StructuredSearch\" />
+    <Folder Include="Week6_OperatorsCF\Swap\" />
+    <Folder Include="Week6_OperatorsCF\SwitchDemo\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Week3_ObjectOrientedProgramming\ClassesAndObjects\Sphere.cs" />

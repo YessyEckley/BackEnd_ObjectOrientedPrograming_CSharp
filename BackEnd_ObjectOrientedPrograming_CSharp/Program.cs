@@ -17,8 +17,8 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp
             //Week1Sample();
             //Week3Sample();
             //Week4Sample();
-            Week5Sample();
-            //Week6Sample();
+            //Week5Sample();
+            Week6Sample();
             //Week7Sample();
             //Week8Sample();
             //Week9Sample();
@@ -123,6 +123,35 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp
 
         private static void Week6Sample()
         {
+            Week6_OperatorsCF.AbsoluteValue.AbsoluteValue.DisplayTest();
+            Week6_OperatorsCF.Assign.Assign.DisplayTest();
+            Week6_OperatorsCF.BreakSearch.BreakSearch.DisplayTest();
+            Week6_OperatorsCF.Checked.Checked.DisplayTest();
+            Week6_OperatorsCF.ContinueLoop.ContinueLoop.DisplayTest();
+            Week6_OperatorsCF.Fibonacci.Fibonacci.DisplayTest();
+            Week6_OperatorsCF.ForDown.ForDown.DisplayTest();
+            Week6_OperatorsCF.ForEachLoop.ForEachLoop.DisplayTest();
+            Week6_OperatorsCF.ForUp.ForUp.DisplayTest();
+            Week6_OperatorsCF.GoToSearch.GotoSearch.DisplayTest();
+            Week6_OperatorsCF.IntegerDivision.IntegerDivision.DisplayTest();
+            Week6_OperatorsCF.Ira.Ira.DisplayTest();
+            Week6_OperatorsCF.LeapYear.LeapYear.DisplayTest();
+            Week6_OperatorsCF.LeapYearLoop.LeapYearLoop.DisplayTest();
+            Week6_OperatorsCF.MultipleMethods.MultipleMethods.DisplayTest();
+            Week6_OperatorsCF.Multiply.Multiply.DisplayTest();
+            Week6_OperatorsCF.Relational.Relational.DisplayTest();
+            Week6_OperatorsCF.Shift.Shift.DisplayTest();
+            Week6_OperatorsCF.ShortCircuit.ShortCircuit.DisplayTest();
+            Week6_OperatorsCF.StructuredSearch.StructuredSearch.DisplayTest();
+            Week6_OperatorsCF.Swap.Swap.DisplayTest();
+            Week6_OperatorsCF.SwitchDemo.SwitchDemo.DisplayTest();
+            Week6_OperatorsCF.Unchecked.Unchecked.DisplayTest();
+
+            ////Labs
+            //Week6_OperatorsCF.Week6Labs.Contacts.Step1.TestContacts.DisplayTest();
+            //Week6_OperatorsCF.Week6Labs.Contacts.Step2.TestContacts.DisplayTest();
+            //Week6_OperatorsCF.Week6Labs.MortgagePayment.Step1.MortgagePayment.DisplayTest();
+            //Week6_OperatorsCF.Week6Labs.MortgagePayment.Step2.MortgagePayment.DisplayTest();
         }
 
         private static void Week7Sample()

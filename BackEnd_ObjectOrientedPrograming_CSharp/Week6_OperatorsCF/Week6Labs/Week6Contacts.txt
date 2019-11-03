@@ -1,0 +1,47 @@
+﻿Lab5
+
+Introduction
+In this lab you will begin implementation of a contact management system. The first version of the program is very simple. You will maintain a list of names in an array of strings, and you will provide a set of commands to work with these contacts:
+add a contact to the list
+show the contacts in forward order
+show the contacts in reverse order
+find a contact in the list.
+remove a contact from the list
+
+Files
+Contacts\Step1     (answer to Part 1)
+Contacts\Step2     (answer to Part 2)
+
+Part 1. Implement a Command Processing Loop
+Use Visual Studio to create an empty C# console project Week6Contacts in your development folder. Add a new file TestContacts.cs to your project, where you will place the program code.
+Create InputWrapper.cs in your new project. Inside the class’ Contact answer file, copy the supplied file InputWrapper.cs logic down to you Week6Contacts\InputWrapper.cs file.
+Add C# code to the file TestContacts.cs to set up a DisplayData() method.
+Add code to the DisplayData() to do the following
+Instantiate an InputWrapper object called iw 
+Write a message "Enter command, quit to exit."
+Use the getString() method of InputWrapper to prompt for a command using the prompt string “>” and store the result in the string variable called cmd.
+Write out the command that was entered.
+Build and test. It would be a good idea to also build and test incrementally after the following steps
+Add a while loop that will loop until the command entered is "quit." Move the statement writing out the command inside the loop
+Add a switch statement, with cases for each of the supported commands.
+In the default case, print out a message listing each of the legal commands with a brief description
+In the case for a command provide stub code that prints out a message indicating that command was invoked
+You can now comment out the statement writing out the command that was entered.
+Build and test.
+
+Part 2. Implement the Commands
+In this part you will declare an array of strings to hold the names. You will provide code for each of the commands, commenting out the stub code as each command is
+implemented.
+Declare an array called names of 10 strings. Also declare an int variable called count, which will be initialized at 0. This holds a count of the actual number of elements in the array.
+Add code to initialize a few names in the array. Increment count as you add each name. For example, the following code would add three names:
+names [count++]
+names [count++]
+names [count++]
+Implement the "forward" command to display the names in the array. First try a foreach What is the problem?
+The foreach loop will try to display all 10 elements in the array, and you want to display only the three actual names. Replace the foreach loop by a counted for loop with the loop index incrementing.
+Implement the "backward" command. Use a counted for with the index decrementing
+Implement the add command
+Implement the "find" command. You will need search code both for this command and also for "remove," so it would be useful for you to create a method called Search(), similar to the method in the MultipleSearch example class code.
+Implement the "remove" command.
+
+

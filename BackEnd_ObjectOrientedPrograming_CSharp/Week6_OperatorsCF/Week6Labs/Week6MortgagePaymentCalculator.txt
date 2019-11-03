@@ -1,0 +1,23 @@
+﻿Lab4
+
+Mortgage Payment Calculator
+
+Introduction
+In this you will provide the code to calculate a monthly payment on a loan, using the precedence rules to organize your calculations.
+
+Files
+MortgagePayment\Step1 (starter files)
+MortgagePayment\Step2 (answer)
+MortgagePayment.cs
+InputWrapper.cs
+
+Instructions
+Examine the starter project.
+Use Visual Studio to create an empty C# console project Week6MortgagePaymentCalculator in your development folder
+Using the formula given in the comments for the payment() method, write the code to calculate a loan payment, given the loan amount, the interest rate, and the number of periods. Use precedence instead of parentheses in your code. 
+Percentage rate should be divided by 100.
+Note that the interest rate is per period, so 12% APR on a monthly period would be 1%, or 0.01.
+Guided by the comments in the DisplayTest() method, write code to prompt for input data, call the payment() method, and display the result.
+Build and test.
+
+
