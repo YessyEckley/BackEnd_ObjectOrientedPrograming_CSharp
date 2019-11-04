@@ -18,10 +18,13 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp.Week6_OperatorsCF.ShortCircuit
             Console.WriteLine("result = {0}", result);
             Console.WriteLine("x = {0}, y = {1}", x, y);
 
-            y = ~x;
-            bool a = true;
-            bool b = false;
-            result = a ^ b;
+            //y = ~x; //produces a bitwise complement of its operand by reversing each bit
+            //Console.WriteLine($"X = {x}; Y = {y}");
+
+            //bool a = true;
+            //bool b = false;
+            //result = a ^ b; //computes the bitwise logical exclusive OR, also known as the bitwise logical XOR
+            //Console.WriteLine($"a = {a}; b = {b};  result = {result}");
 
             return 0;
         }

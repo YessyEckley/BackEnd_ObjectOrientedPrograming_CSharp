@@ -27,6 +27,7 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp.Week6_OperatorsCF.Week6Labs.Mo
         /***************************************************************/
         static decimal payment(decimal amount, double interest, int months)
         {
+            return 0.0m; //stub code, sub this code
         }
     }
 }

@@ -110,7 +110,7 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp
             //object o = x; // boxing
             //x = (int)o; // unboxing
 
-            Week5_Classes.ImplicitType.ImplicitTypeClass.DisplayTest();
+            //Week5_Classes.ImplicitType.ImplicitTypeClass.DisplayTest();
 
             //Homework coding work
             //Week5_Classes.Week5Labs.HotelStructArray.Step2.TestHotel.DisplayTest();
@@ -123,29 +123,30 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp
 
         private static void Week6Sample()
         {
-            Week6_OperatorsCF.AbsoluteValue.AbsoluteValue.DisplayTest();
-            Week6_OperatorsCF.Assign.Assign.DisplayTest();
-            Week6_OperatorsCF.BreakSearch.BreakSearch.DisplayTest();
-            Week6_OperatorsCF.Checked.Checked.DisplayTest();
-            Week6_OperatorsCF.ContinueLoop.ContinueLoop.DisplayTest();
-            Week6_OperatorsCF.Fibonacci.Fibonacci.DisplayTest();
-            Week6_OperatorsCF.ForDown.ForDown.DisplayTest();
-            Week6_OperatorsCF.ForEachLoop.ForEachLoop.DisplayTest();
-            Week6_OperatorsCF.ForUp.ForUp.DisplayTest();
-            Week6_OperatorsCF.GoToSearch.GotoSearch.DisplayTest();
-            Week6_OperatorsCF.IntegerDivision.IntegerDivision.DisplayTest();
-            Week6_OperatorsCF.Ira.Ira.DisplayTest();
-            Week6_OperatorsCF.LeapYear.LeapYear.DisplayTest();
-            Week6_OperatorsCF.LeapYearLoop.LeapYearLoop.DisplayTest();
-            Week6_OperatorsCF.MultipleMethods.MultipleMethods.DisplayTest();
-            Week6_OperatorsCF.Multiply.Multiply.DisplayTest();
-            Week6_OperatorsCF.Relational.Relational.DisplayTest();
-            Week6_OperatorsCF.Shift.Shift.DisplayTest();
-            Week6_OperatorsCF.ShortCircuit.ShortCircuit.DisplayTest();
-            Week6_OperatorsCF.StructuredSearch.StructuredSearch.DisplayTest();
-            Week6_OperatorsCF.Swap.Swap.DisplayTest();
-            Week6_OperatorsCF.SwitchDemo.SwitchDemo.DisplayTest();
-            Week6_OperatorsCF.Unchecked.Unchecked.DisplayTest();
+            //Week6_OperatorsCF.Multiply.Multiply.DisplayTest();
+            //Week6_OperatorsCF.IntegerDivision.IntegerDivision.DisplayTest();
+            //Week6_OperatorsCF.Ira.Ira.DisplayTest();
+            //Week6_OperatorsCF.Relational.Relational.DisplayTest();
+            //Week6_OperatorsCF.ShortCircuit.ShortCircuit.DisplayTest();
+            //Week6_OperatorsCF.AbsoluteValue.AbsoluteValue.DisplayTest();
+            //Week6_OperatorsCF.Shift.Shift.DisplayTest();
+            //Week6_OperatorsCF.Assign.Assign.DisplayTest();
+            //Week6_OperatorsCF.Unchecked.Unchecked.DisplayTest();
+            //Week6_OperatorsCF.Checked.Checked.DisplayTest();
+
+            //Week6_OperatorsCF.LeapYear.LeapYear.DisplayTest();
+            //Week6_OperatorsCF.Swap.Swap.DisplayTest();
+            //Week6_OperatorsCF.LeapYearLoop.LeapYearLoop.DisplayTest();
+            //Week6_OperatorsCF.ForUp.ForUp.DisplayTest();
+            //Week6_OperatorsCF.ForDown.ForDown.DisplayTest();
+            //Week6_OperatorsCF.Fibonacci.Fibonacci.DisplayTest();
+            //Week6_OperatorsCF.ForEachLoop.ForEachLoop.DisplayTest();
+            //Week6_OperatorsCF.BreakSearch.BreakSearch.DisplayTest();
+            //Week6_OperatorsCF.ContinueLoop.ContinueLoop.DisplayTest();    
+            //Week6_OperatorsCF.GoToSearch.GotoSearch.DisplayTest();
+            //Week6_OperatorsCF.StructuredSearch.StructuredSearch.DisplayTest();
+            //Week6_OperatorsCF.MultipleMethods.MultipleMethods.DisplayTest();
+            //Week6_OperatorsCF.SwitchDemo.SwitchDemo.DisplayTest();
 
             ////Labs
             //Week6_OperatorsCF.Week6Labs.Contacts.Step1.TestContacts.DisplayTest();
