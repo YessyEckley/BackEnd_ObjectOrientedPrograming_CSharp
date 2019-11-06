@@ -123,6 +123,22 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp
 
         private static void Week6Sample()
         {
+            ////Prefix and Sufix
+            //int y = 1;
+            //int x = 2;
+
+            //Console.WriteLine($"Value Check -> y = {y} x = {x}");
+            //y = ++x;
+            //Console.WriteLine($"y = ++x -> y = {y} x = {x}");
+            //y = x++;
+            //Console.WriteLine($"y = x++ -> y = {y} x = {x}");
+
+            //Console.WriteLine($"Value Check -> y = {y} x = {x}");
+            //y = --x;
+            //Console.WriteLine($"y = --x -> y = {y} x = {x}");
+            //y = x--;
+            //Console.WriteLine($"y = x-- -> y = {y} x = {x}");
+
             //Week6_OperatorsCF.Multiply.Multiply.DisplayTest();
             //Week6_OperatorsCF.IntegerDivision.IntegerDivision.DisplayTest();
             //Week6_OperatorsCF.Ira.Ira.DisplayTest();
