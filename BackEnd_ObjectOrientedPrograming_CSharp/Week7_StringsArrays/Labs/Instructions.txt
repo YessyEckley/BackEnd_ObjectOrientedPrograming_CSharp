@@ -1,0 +1,94 @@
+﻿Lab #1
+String Manipulation of Email Addresses
+
+Introduction
+
+In this lab you will write a program to manipulate strings that represent email addresses.
+For the purpose of this exercise, you will assume that email addresses have a very strictly
+limited syntax:
+
+user@domain.suffix
+
+Here, user and domain have only alphanumeric characters, and suffix is one of "com,
+"org" or "edu."
+
+Your program is to read in email addresses in a loop and parse them into their constituent
+parts. A suitable error message should be displayed if the email address does not have the
+correct syntax
+
+Files:
+
+EmailStrings\Step1 (Answer to Part 1)
+EmailStrings\Step2 (Answer to Part 2)
+
+Part 1. Separating out the Constituent Parts
+
+In this part you will write a C# program to read in strings that are assumed to be of the
+proper syntax and separate out the constituent parts.
+
+1. Create a program that will prompt the user for string input in a loop, echo print the
+string, and exit when the user has entered an empty string.
+
+2. Use the String.Split() method with '@' and as separators to split an email string
+into its constituent parts. Note that this does not do any validity checking for there
+being exactly one '@ followed by one .
+
+3. Build and test.
+
+Part 2. Parsing the Email Address
+
+In this part you will use a different approach, searching for exactly one '@' character
+followed by one character. If the string has proper format for an email address,, display
+the constituent parts, otherwise display an error message.
+
+1. Remove the code using the Split() method.
+
+2. Use IndexOf() to search for an at symbol delimiting the user
+
+3. Use Substring() to extract the user substring.
+
+4. Use IndexOf() to search for a period delimiting the domain.
+
+5. Use Substring() to extract the domain and suffix substrings.
+
+6. Check that the suffix is one of "com,", "org," or "edu."
+
+7. If all conditions are met display the constituent parts of the email address.
+
+8. If any condition is not met, display a suitable error message. Create a private method with the following signature
+bool IsAlphanum (string str)
+to verify that a given string is alphanumeric.
+
+9. Build and test with both valid and invalid email strings.
+
+
+Lab #2
+Arrays and Indexers
+
+Introduction
+
+In the case study, the array of accounts is kept in the Bank class. In this lab, you will
+create a separate class Account List to manage the array of accounts, and provide an
+indexer to retrieve the Account objects.
+
+Files:
+
+AccountList (answers)
+Bank\Step1 (starter files)
+
+Instructions
+
+1. Build a new console app project and copy the starter files for the Bank\Step1
+
+2. Create a class called AccountList, which contains an array of Account references.
+Include the following methods in AccountList:
+
+• Add() method to add an account to the list
+• Close() method to remove an account
+• GetAccounts() method to return a string array containing all of the account names with the account numbers and balances.
+• Find() method to return an account given its id.
+• An indexer to retrieve an Account reference using the account id.
+
+Most of the code for these methods can be migrated from the current Bank class.
+
+3. Modify the Bank class as needed. To test the indexer, change the FindAccount() method in the Bank class to use the indexer.

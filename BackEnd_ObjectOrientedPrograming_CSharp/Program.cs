@@ -18,8 +18,8 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp
             //Week3Sample();
             //Week4Sample();
             //Week5Sample();
-            Week6Sample();
-            //Week7Sample();
+            //Week6Sample();
+            Week7Sample();
             //Week8Sample();
             //Week9Sample();
             //Week10Sample();
@@ -173,6 +173,17 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp
 
         private static void Week7Sample()
         {
+            //// Class Demos
+            //Week7_StringsArrays.Samples.CharCode.CharCode.DisplayTest();
+            //Week7_StringsArrays.Demo.StringDemo.StringDemo.DisplayTest();
+            //Week7_StringsArrays.Demo.StringBuilderDemo.StringBuilderDemo.DisplayTest();
+            //Week7_StringsArrays.Demo.ArrayDemo.ArrayDemo.DisplayTest();
+
+            // Try Testing the Samples
+            //Week7_StringsArrays.Samples
+
+            // Try Testing the Labs
+            //Week7_StringsArrays.Labs
         }
 
         private static void Week8Sample()

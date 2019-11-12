@@ -53,8 +53,16 @@
     <Folder Include="Week6_OperatorsCF\StructuredSearch\" />
     <Folder Include="Week6_OperatorsCF\Swap\" />
     <Folder Include="Week6_OperatorsCF\SwitchDemo\" />
+    <Folder Include="Week7_StringsArrays\" />
+    <Folder Include="Week7_StringsArrays\Demo\" />
+    <Folder Include="Week7_StringsArrays\Labs\" />
+    <Folder Include="Week7_StringsArrays\Samples\" />
+    <Folder Include="Week7_StringsArrays\Labs\EmailStrings\" />
+    <Folder Include="Week7_StringsArrays\Labs\AccountList\" />
+    <Folder Include="Week7_StringsArrays\Samples\StringMethods\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Week3_ObjectOrientedProgramming\ClassesAndObjects\Sphere.cs" />
+    <Compile Remove="Week7_StringsArrays\Demo\ArrayDemo\EmptyClass.cs" />
   </ItemGroup>
 </Project>
