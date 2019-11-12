@@ -23,6 +23,9 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp.Week7_StringsArrays.Samples.Co
             Console.WriteLine(path);
             string greeting = @"""Hello, world""";
             Console.WriteLine(greeting);
+
+            string concat1 = "This " + "is " + "concat!";
+            concat1 += " Hello Concat!";
         }
     }
 }

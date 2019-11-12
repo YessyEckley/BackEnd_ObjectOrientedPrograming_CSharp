@@ -175,9 +175,12 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp
         {
             //// Class Demos
             //Week7_StringsArrays.Samples.CharCode.CharCode.DisplayTest();
+            ////This is a parametized string example
+            //int aNumber = 5;
+            //string aParatemizedString = $"This is an integer: {aNumber}";
             //Week7_StringsArrays.Demo.StringDemo.StringDemo.DisplayTest();
             //Week7_StringsArrays.Demo.StringBuilderDemo.StringBuilderDemo.DisplayTest();
-            //Week7_StringsArrays.Demo.ArrayDemo.ArrayDemo.DisplayTest();
+            Week7_StringsArrays.Demo.ArrayDemo.ArrayDemo.DisplayTest();
 
             // Try Testing the Samples
             //Week7_StringsArrays.Samples
