@@ -181,6 +181,8 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp
 
             // Try Testing the Samples
             //Week7_StringsArrays.Samples
+            //Week7_StringsArrays.Samples.StringCompare.StringCompare.DisplayTest();
+            //Week7_StringsArrays.Samples.StringBuilderCompare.StringBuilderCompare.DisplayTest();
 
             // Try Testing the Labs
             //Week7_StringsArrays.Labs
