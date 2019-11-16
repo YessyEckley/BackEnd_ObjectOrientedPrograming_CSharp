@@ -19,8 +19,8 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp
             //Week4Sample();
             //Week5Sample();
             //Week6Sample();
-            Week7Sample();
-            //Week8Sample();
+            //Week7Sample();
+            Week8Sample();
             //Week9Sample();
             //Week10Sample();
             //Week11Sample();
@@ -180,7 +180,7 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp
             //string aParatemizedString = $"This is an integer: {aNumber}";
             //Week7_StringsArrays.Demo.StringDemo.StringDemo.DisplayTest();
             //Week7_StringsArrays.Demo.StringBuilderDemo.StringBuilderDemo.DisplayTest();
-            Week7_StringsArrays.Demo.ArrayDemo.ArrayDemo.DisplayTest();
+            //Week7_StringsArrays.Demo.ArrayDemo.ArrayDemo.DisplayTest();
 
             // Try Testing the Samples
             //Week7_StringsArrays.Samples

@@ -60,6 +60,30 @@
     <Folder Include="Week7_StringsArrays\Labs\EmailStrings\" />
     <Folder Include="Week7_StringsArrays\Labs\AccountList\" />
     <Folder Include="Week7_StringsArrays\Samples\StringMethods\" />
+    <Folder Include="Week8_Functions\" />
+    <Folder Include="Week8_Functions\Demo\" />
+    <Folder Include="Week8_Functions\Labs\" />
+    <Folder Include="Week8_Functions\Samples\" />
+    <Folder Include="Week8_Functions\Labs\Bank\" />
+    <Folder Include="Week8_Functions\Labs\TestSimpleMath\" />
+    <Folder Include="Week8_Functions\Labs\HotelClass\" />
+    <Folder Include="Week8_Functions\Labs\InterestChecking\" />
+    <Folder Include="Week8_Functions\Samples\AccountProperty\" />
+    <Folder Include="Week8_Functions\Samples\AutoProperties\" />
+    <Folder Include="Week8_Functions\Samples\ClockOverload\" />
+    <Folder Include="Week8_Functions\Samples\HotelStruct\" />
+    <Folder Include="Week8_Functions\Samples\HotelStructRef\" />
+    <Folder Include="Week8_Functions\Samples\OutputMath\" />
+    <Folder Include="Week8_Functions\Samples\OverloadDemo\" />
+    <Folder Include="Week8_Functions\Samples\OverloadHotel\" />
+    <Folder Include="Week8_Functions\Samples\ReferenceMath\" />
+    <Folder Include="Week8_Functions\Samples\SimpleAccount\" />
+    <Folder Include="Week8_Functions\Samples\VariableMax\" />
+    <Folder Include="Week8_Functions\Samples\BadConversion\" />
+    <Folder Include="Week8_Functions\Samples\HeterogeneousAccount\" />
+    <Folder Include="Week8_Functions\Samples\PolyAccount\" />
+    <Folder Include="Week8_Functions\Samples\StaticAccount\" />
+    <Folder Include="Week8_Functions\Samples\VirtualAccount\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Week3_ObjectOrientedProgramming\ClassesAndObjects\Sphere.cs" />
