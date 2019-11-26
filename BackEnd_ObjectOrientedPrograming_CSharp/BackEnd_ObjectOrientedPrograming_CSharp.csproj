@@ -84,6 +84,21 @@
     <Folder Include="Week8_Functions\Samples\PolyAccount\" />
     <Folder Include="Week8_Functions\Samples\StaticAccount\" />
     <Folder Include="Week8_Functions\Samples\VirtualAccount\" />
+    <Folder Include="Week9_FormatEx\" />
+    <Folder Include="Week9_FormatEx\Sample\" />
+    <Folder Include="Week9_FormatEx\Lab\" />
+    <Folder Include="Week9_FormatEx\Sample\AccountExceptionDemo\" />
+    <Folder Include="Week9_FormatEx\Sample\ArithmeticExceptionDemo\" />
+    <Folder Include="Week9_FormatEx\Sample\HotelToString\" />
+    <Folder Include="Week9_FormatEx\Sample\MoneyConvert\" />
+    <Folder Include="Week9_FormatEx\Sample\MoneyPower\" />
+    <Folder Include="Week9_FormatEx\Sample\MoneyReport\" />
+    <Folder Include="Week9_FormatEx\Sample\NumberToString\" />
+    <Folder Include="Week9_FormatEx\Sample\PowerFormat\" />
+    <Folder Include="Week9_FormatEx\Sample\PowerTwo\" />
+    <Folder Include="Week9_FormatEx\Lab\Bank\" />
+    <Folder Include="Week9_FormatEx\Lab\ConvertTime\" />
+    <Folder Include="Week9_FormatEx\Lab\TimeException\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Week3_ObjectOrientedProgramming\ClassesAndObjects\Sphere.cs" />

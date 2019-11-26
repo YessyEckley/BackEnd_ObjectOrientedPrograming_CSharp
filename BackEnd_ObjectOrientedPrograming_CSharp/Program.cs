@@ -20,8 +20,8 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp
             //Week5Sample();
             //Week6Sample();
             //Week7Sample();
-            Week8Sample();
-            //Week9Sample();
+            //Week8Sample();
+            Week9Sample();
             //Week10Sample();
             //Week11Sample();
         }
@@ -197,6 +197,28 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp
 
         private static void Week9Sample()
         {
+            //Week9_FormatEx.Sample.NumberToString.NumberToString.DisplayTest();
+
+            //Week9_FormatEx.Sample.HotelToString.Step1.HotelToString.DisplayTest();
+            //Week9_FormatEx.Sample.HotelToString.Step2.HotelToString.DisplayTest();
+            //Week9_FormatEx.Sample.HotelToString.Step3.HotelToString.DisplayTest();
+
+            //Week9_FormatEx.Sample.PowerTwo.Step0.PowerTwo.DisplayTest();
+            //Week9_FormatEx.Sample.PowerTwo.Step1.PowerTwo.DisplayTest();
+            //Week9_FormatEx.Sample.PowerTwo.Step2.PowerTwo.DisplayTest();
+
+            Week9_FormatEx.Sample.PowerFormat.PowerFormat.DisplayTest();
+
+            //Week9_FormatEx.Sample.MoneyPower.MoneyPower.DisplayTest();
+            //Week9_FormatEx.Sample.MoneyReport.MoneyReport.DisplayTest();
+
+            //Week9_FormatEx.Sample.MoneyConvert.MoneyConvert.DisplayTest();
+
+            //Week9_FormatEx.Sample.AccountExceptionDemo.Step1.AccountExceptionDemo.DisplayTest();
+            //Week9_FormatEx.Sample.AccountExceptionDemo.Step2.AccountExceptionDemo.DisplayTest();
+            //Week9_FormatEx.Sample.AccountExceptionDemo.Step3.AccountExceptionDemo.DisplayTest();
+
+            //Week9_FormatEx.Sample.ArithmeticExceptionDemo.ArithmeticExceptionDemo.DisplayTest();
         }
 
         private static void Week10Sample()
