@@ -22,6 +22,7 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp.Week10_NamespacesInterface.Sam
             InputWrapper iw = new InputWrapper();
             string cmd;
             Console.WriteLine("Enter command, quit to exit");
+            help();
             cmd = iw.getString("> ");
             while (!cmd.Equals("quit"))
             {
