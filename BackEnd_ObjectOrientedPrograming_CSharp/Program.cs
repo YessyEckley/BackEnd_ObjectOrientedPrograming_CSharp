@@ -21,8 +21,8 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp
             //Week6Sample();
             //Week7Sample();
             //Week8Sample();
-            Week9Sample();
-            //Week10Sample();
+            //Week9Sample();
+            Week10Sample();
             //Week11Sample();
         }
 
@@ -223,6 +223,8 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp
 
         private static void Week10Sample()
         {
+            //Week10_NamespacesInterface.Sample.SmallInterface.SmallInterface.DisplayTest();
+            //Week10_NamespacesInterface.Sample.TryInterfaces.TryInterfaces.DisplayTest();
         }
 
         private static void Week11Sample()
