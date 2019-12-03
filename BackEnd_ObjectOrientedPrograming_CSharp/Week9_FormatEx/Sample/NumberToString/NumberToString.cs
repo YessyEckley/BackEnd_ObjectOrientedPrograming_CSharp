@@ -16,6 +16,8 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp.Week9_FormatEx.Sample.NumberTo
             Console.WriteLine(str);
             Console.WriteLine("number = " + number);
             Console.WriteLine(444.ToString());
+
+            string aNewString = Convert.ToString(number);
         }
     }
 }

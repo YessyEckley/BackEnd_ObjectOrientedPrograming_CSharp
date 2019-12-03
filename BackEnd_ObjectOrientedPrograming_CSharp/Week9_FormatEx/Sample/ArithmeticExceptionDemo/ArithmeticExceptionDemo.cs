@@ -70,10 +70,10 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp.Week9_FormatEx.Sample.Arithmet
                 //prod = CheckedMultiply(56666, 57777);
                 //Console.WriteLine("product = {0}", prod);
 
-                ////Invalid Cast
-                //Console.WriteLine("Operands: 56666L, 57777");
-                //prod = CheckedMultiply(56666L, 57777);
-                //Console.WriteLine("product = {0}", prod);
+                //Invalid Cast
+                Console.WriteLine("Operands: 56666L, 57777");
+                prod = CheckedMultiply(56666L, 57777);
+                Console.WriteLine("product = {0}", prod);
 
                 //Console.WriteLine("Operands: 56666L, 57777");
                 //prod = CheckedMultiply(56666, 57777L);

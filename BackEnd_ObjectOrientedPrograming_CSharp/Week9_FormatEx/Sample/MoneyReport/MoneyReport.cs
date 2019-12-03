@@ -23,11 +23,14 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp.Week9_FormatEx.Sample.MoneyRep
             }
             return total;
         }
+
         public static string CreateReport(decimal amount)
         {
             string str = "Dear Your Majesty,\n\t" +
-                string.Format("You owe me {0,30:C}", amount) +
+                string.Format
+                   ("You owe me {0,30:C}", amount) +
                 "\nSincerely, Your Humble Servant";
+
             return str;
         }
     }

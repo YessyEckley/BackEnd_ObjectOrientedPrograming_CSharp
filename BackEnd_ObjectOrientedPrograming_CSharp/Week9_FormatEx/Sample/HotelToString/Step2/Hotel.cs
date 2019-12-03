@@ -16,7 +16,7 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp.Week9_FormatEx.Sample.HotelToS
         }
         override public string ToString()
         {
-            return city + " " + name;
+            return "This is the city: " + city + "of the hotel: " + name;
         }
     }
 }

@@ -12,7 +12,7 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp.Week9_FormatEx.Sample.HotelToS
             Hotel alpha = new Hotel("Atlanta", "Dixie");
             Hotel beta = new Hotel("Boston", "Yankee");
             Console.WriteLine(alpha);
-            Console.WriteLine(beta);
+            Console.WriteLine(beta.ToString());
         }
     }
 }

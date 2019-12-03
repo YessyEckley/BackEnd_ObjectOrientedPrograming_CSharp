@@ -14,7 +14,7 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp.Week1_HelloWorld
             int area;
             area = width * height;
             Console.WriteLine("area = {0}", area);
-            Console.WriteLine("Prese Enter to exit");
+            Console.WriteLine("Press Enter to exit");
             Console.ReadLine();
         }
     }

@@ -12,7 +12,7 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp.Week9_FormatEx.Sample.PowerTwo
             decimal power = 1;
             string header1 = "Num";
             string header2 = "Power";
-            string header = header1.PadRight(4) + header2.PadLeft(30);
+            string header = header1.PadRight(4) + header2.PadLeft(30, '*');
             Console.WriteLine(header);
             for (int i = 0; i < 64; i++)
             {

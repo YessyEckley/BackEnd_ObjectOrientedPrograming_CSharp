@@ -207,7 +207,7 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp
             //Week9_FormatEx.Sample.PowerTwo.Step1.PowerTwo.DisplayTest();
             //Week9_FormatEx.Sample.PowerTwo.Step2.PowerTwo.DisplayTest();
 
-            Week9_FormatEx.Sample.PowerFormat.PowerFormat.DisplayTest();
+            //Week9_FormatEx.Sample.PowerFormat.PowerFormat.DisplayTest();
 
             //Week9_FormatEx.Sample.MoneyPower.MoneyPower.DisplayTest();
             //Week9_FormatEx.Sample.MoneyReport.MoneyReport.DisplayTest();
@@ -218,7 +218,7 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp
             //Week9_FormatEx.Sample.AccountExceptionDemo.Step2.AccountExceptionDemo.DisplayTest();
             //Week9_FormatEx.Sample.AccountExceptionDemo.Step3.AccountExceptionDemo.DisplayTest();
 
-            //Week9_FormatEx.Sample.ArithmeticExceptionDemo.ArithmeticExceptionDemo.DisplayTest();
+            Week9_FormatEx.Sample.ArithmeticExceptionDemo.ArithmeticExceptionDemo.DisplayTest();
         }
 
         private static void Week10Sample()

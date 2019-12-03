@@ -99,9 +99,16 @@
     <Folder Include="Week9_FormatEx\Lab\Bank\" />
     <Folder Include="Week9_FormatEx\Lab\ConvertTime\" />
     <Folder Include="Week9_FormatEx\Lab\TimeException\" />
+    <Folder Include="Week10_NamespacesInterface\" />
+    <Folder Include="Week10_NamespacesInterface\Sample\" />
+    <Folder Include="Week10_NamespacesInterface\Sample\Bank\" />
+    <Folder Include="Week10_NamespacesInterface\Sample\Ambiguous\" />
+    <Folder Include="Week10_NamespacesInterface\Sample\SmallInterface\" />
+    <Folder Include="Week10_NamespacesInterface\Sample\TryInterfaces\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Week3_ObjectOrientedProgramming\ClassesAndObjects\Sphere.cs" />
     <Compile Remove="Week7_StringsArrays\Demo\ArrayDemo\EmptyClass.cs" />
+    <Compile Remove="Week10_NamespacesInterface\Sample\Bank\Step6\EmptyClass.cs" />
   </ItemGroup>
 </Project>
