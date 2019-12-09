@@ -105,6 +105,28 @@
     <Folder Include="Week10_NamespacesInterface\Sample\Ambiguous\" />
     <Folder Include="Week10_NamespacesInterface\Sample\SmallInterface\" />
     <Folder Include="Week10_NamespacesInterface\Sample\TryInterfaces\" />
+    <Folder Include="Week11_CollectionsEvents\" />
+    <Folder Include="Week11_CollectionsEvents\Samples\" />
+    <Folder Include="Week11_CollectionsEvents\Samples\Bank\" />
+    <Folder Include="Week11_CollectionsEvents\Samples\AccountList\" />
+    <Folder Include="Week11_CollectionsEvents\Samples\AnonymousType\" />
+    <Folder Include="Week11_CollectionsEvents\Samples\ArrayCopy\" />
+    <Folder Include="Week11_CollectionsEvents\Samples\ArrayName\" />
+    <Folder Include="Week11_CollectionsEvents\Samples\CollectionInit\" />
+    <Folder Include="Week11_CollectionsEvents\Samples\CopyDemo\" />
+    <Folder Include="Week11_CollectionsEvents\Samples\GenericStack\" />
+    <Folder Include="Week11_CollectionsEvents\Samples\GenericStringList\" />
+    <Folder Include="Week11_CollectionsEvents\Samples\ObjectInit\" />
+    <Folder Include="Week11_CollectionsEvents\Samples\ObjectStack\" />
+    <Folder Include="Week11_CollectionsEvents\Samples\SortFriends\" />
+    <Folder Include="Week11_CollectionsEvents\Samples\StringList\" />
+    <Folder Include="Week11_CollectionsEvents\Samples\Anonymous\" />
+    <Folder Include="Week11_CollectionsEvents\Samples\AnonymousMethod\" />
+    <Folder Include="Week11_CollectionsEvents\Samples\DelegateAccount\" />
+    <Folder Include="Week11_CollectionsEvents\Samples\DelegateDemo\" />
+    <Folder Include="Week11_CollectionsEvents\Samples\EventDemo\" />
+    <Folder Include="Week11_CollectionsEvents\Samples\NamedMethod\" />
+    <Folder Include="Week11_CollectionsEvents\Samples\SimpleLambda\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Week3_ObjectOrientedProgramming\ClassesAndObjects\Sphere.cs" />
