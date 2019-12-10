@@ -13,7 +13,7 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp.Week11_CollectionsEvents.Sampl
 			for (int i = 1; i <= 5; i++)
 				Console.WriteLine("{0}   {1}", i, calc(i));
 		}
-		static void DisplayTest()
+		public static void DisplayTest()
 		{
 			// inferred type
 			Show5(x => x * x);

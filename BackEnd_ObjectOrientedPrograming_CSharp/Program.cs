@@ -22,8 +22,8 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp
             //Week7Sample();
             //Week8Sample();
             //Week9Sample();
-            Week10Sample();
-            //Week11Sample();
+            //Week10Sample();
+            Week11Sample();
         }
 
         private static void Week1Sample()
@@ -229,6 +229,12 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp
 
         private static void Week11Sample()
         {
+            Week11_CollectionsEvents.Samples.StringList.StringList.DisplayTest();
+            Week11_CollectionsEvents.Samples.GenericStringList.StringList.DisplayTest();
+            Week11_CollectionsEvents.Samples.ObjectInit.ObjectInit.DisplayTest();
+            Week11_CollectionsEvents.Samples.CollectionInit.CollectionInit.DisplayTest();
+            Week11_CollectionsEvents.Samples.DelegateDemo.DelegateDemo.DisplayTest();
+            Week11_CollectionsEvents.Samples.Anonymous.NamedMethods.DisplayTest();
         }
     }
 }

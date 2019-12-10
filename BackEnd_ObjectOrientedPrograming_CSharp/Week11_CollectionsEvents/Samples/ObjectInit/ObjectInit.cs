@@ -7,7 +7,7 @@ namespace BackEnd_ObjectOrientedPrograming_CSharp.Week11_CollectionsEvents.Sampl
 {
 	public class ObjectInit
 	{
-		static void DisplayTest()
+		public static void DisplayTest()
 		{
 			Account acc = new Account { AccountId = 101, Balance = 150m };
 			Console.WriteLine(acc);

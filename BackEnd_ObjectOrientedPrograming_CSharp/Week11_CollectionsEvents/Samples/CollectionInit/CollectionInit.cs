@@ -5,9 +5,9 @@ using System.Text;
 
 namespace BackEnd_ObjectOrientedPrograming_CSharp.Week11_CollectionsEvents.Samples.CollectionInit
 {
-	public class Program
-	{
-		static void DisplayTest()
+	public class CollectionInit
+    {
+		public static void DisplayTest()
 		{
 			List<int> primes = new List<int> { 2, 3, 5, 7, 11 };
 			ShowList(primes);
